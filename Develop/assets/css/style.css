@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.hidden{
+.hidden{ /* hide elements with this class */ 
     display: none;
 }
 
@@ -45,14 +45,14 @@ body {
     margin-left: 25px;
 }
 
-#nav-bar {
+#nav-bar { /* given an id to the ul in order to position bordered with parent element "nav" to place the "nav-item" (listed below) to gether in the right position */
     position: absolute;
     top: 40px;
     right: 50px;
     text-align: right;
 }
 
-.nav-item {
+.nav-item { /* remove list decoration for each item and make default 100% screen occupation to content width, and margin to space them apart */
     display: inline;
     list-style-type: none;
     margin-left: 10px;
@@ -93,7 +93,7 @@ p {
 
 .benefits {
     margin-right: 20px;
-    padding: 35px 43px 43px 43px;
+    padding: 35px 43px 43px 43px; /* changed the padding setting in order to match the expected outcome */
     clear: both;
     float: right;
     width: 20%;
