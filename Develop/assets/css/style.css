@@ -93,7 +93,7 @@ p {
 
 .benefits {
     margin-right: 20px;
-    padding: 20px;
+    padding: 35px 43px 43px 43px;
     clear: both;
     float: right;
     width: 20%;
@@ -203,7 +203,6 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 .footer {
     padding: 30px;
