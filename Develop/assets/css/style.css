@@ -8,6 +8,10 @@ body {
     background-color: #d9dcd6;
 }
 
+.hidden{
+    display: none;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +45,18 @@ body {
     margin-left: 25px;
 }
 
+#nav-bar {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    text-align: right;
+}
+
+.nav-item {
+    display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+}
 a {
     color: #ffffff;
     text-decoration: none;
@@ -187,6 +203,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 .footer {
     padding: 30px;
