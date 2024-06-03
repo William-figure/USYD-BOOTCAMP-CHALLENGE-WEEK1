@@ -183,7 +183,6 @@ p {
 
 .online-reputation-management img {
     max-height: 200px;
-    margin-right: 230px; /* push the image to the left to match the outcome */
 }
 
 .social-media-marketing img {
@@ -191,15 +190,11 @@ p {
 }
 
 .search-engine-optimization h2 {
-    /* adjust the width to 70% of the original heading width for text to wrap */
-    width: 70%; 
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
-    /* similarly, adjust the width to 50% of the original heading width for text to wrap for current header */
-    width: 50%; 
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -207,16 +202,6 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-/* fix all section paragragh with certain width to reflect the sample output text format */
-.search-engine-optimization p {
-    width: 75%;
-}
-.online-reputation-management p {
-    width: 44%;
-}
-.social-media-marketing p {
-    width: 73%;
 }
 .footer {
     padding: 30px;
