@@ -1,4 +1,4 @@
-# Module 1 Challenge
+# UPDATE-WEBPAGE-LAYOUT
 
 Before you get started on your first Challenge, review the elements that you'll find in each assignment.
 
